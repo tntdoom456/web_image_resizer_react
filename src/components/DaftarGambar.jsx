@@ -1,7 +1,6 @@
 import KartuGambar from "./KartuGambar";
 
 export default function DaftarGambar({ dataList }) {
-  // Conditional Rendering sesuai instruksi
   if (dataList.length === 0) {
     return (
       <div className="alert alert-warning text-center shadow-sm">
